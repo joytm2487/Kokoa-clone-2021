@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Reset CSS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  color: #a6a6a6;
+  letter-spacing: -0.02em;
+}
+
+button,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  box-shadow: none;
+  outline: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* landing-bar */
+.landing-bar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-bar__child span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.landing-bar__child .fas {
+  display: inline-block;
+  position: relative;
+  top: -0.5px;
+}
+
+.fa-battery-quarter {
+  color: red;
+}
+
+/* talk-main */
+.talk-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.talk-main h1 {
+  margin-bottom: 15px;
+}
+
+/* talk-main-log */
+
+.fill-button:first-child {
+  margin-bottom: 30px;
+}
+*/
+
+/* .talk-main-footer {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+/* Fix container width */
+
+@media screen and (min-width: 1440px) {
+}
+
+/* .talk-main-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .talk-main-log input {
+    display: block;
+    width: 800px;
+    height: auto;
+    border-style: none;
+    border-bottom: 2px solid #a6a6a6;
+    margin-bottom: 30px;
+  }
+  
+  .talk-main__button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fill-button a {
+    display: inline-flex;
+    width: 800px;
+    height: auto;
+    padding: 15px 0px;
+    background-color: #a6a6a6;
+    color: white;
+    font-size: 15px;
+  } */
