@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>buddy talk</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
@@ -40,14 +41,14 @@
       </p>
     </section>
 
-    <section class="talk-main-log">
-      <form action="#" method="POST">
+    <section class="talk-main-login">
+      <form action="#" method="POST" id="login-form">
         <input type="Email" placeholder="Email or phone number" />
         <input type="Password" placeholder="password" />
-        <div class="talk-main__button-group">
-          <a href="#" class="fill-button">Log in</a>
-          <a href="#" class="fill-button">Sign Up</a>
-        </div>
+        <button type="submit" class="fill-button">Log in</button>
+        <button type="button" class="fill-button">
+          <a href="#">Sign Up</a>
+        </button>
       </form>
     </section>
     <!-- <footer class="talk-main-footer">

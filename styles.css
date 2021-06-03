@@ -5,48 +5,16 @@
 
 body {
   font-family: "Poppins", sans-serif;
-}
-
-/* Reset CSS */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-p {
-  color: #a6a6a6;
-  letter-spacing: -0.02em;
-}
-
-button,
-input,
-textarea {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-}
-
-button:focus,
-button:active,
-input:focus,
-input:active,
-textarea:focus,
-textarea:active {
-  box-shadow: none;
-  outline: none;
-}
-
-ul,
-ol,
-li {
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 2px 2px;
+  background-image: url(./img/0101.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* landing-bar */
 .landing-bar {
-  width: 100%;
-  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -83,52 +51,38 @@ li {
   margin-bottom: 15px;
 }
 
-/* talk-main-log */
+/* talk-main-login */
 
-.fill-button:first-child {
+.talk-main-login {
+  padding: 0 50px;
+}
+
+#login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.talk-main-login input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   margin-bottom: 30px;
 }
-*/
 
-/* .talk-main-footer {
-  font-weight: 200;
-  font-size: 15px;
+.fill-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 6px 6px 1px teal;
+  background-color: rgb(0, 0, 0, 0.1);
 }
 
-/* Fix container width */
-
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
 }
-
-/* .talk-main-log {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .talk-main-log input {
-    display: block;
-    width: 800px;
-    height: auto;
-    border-style: none;
-    border-bottom: 2px solid #a6a6a6;
-    margin-bottom: 30px;
-  }
-  
-  .talk-main__button-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .fill-button a {
-    display: inline-flex;
-    width: 800px;
-    height: auto;
-    padding: 15px 0px;
-    background-color: #a6a6a6;
-    color: white;
-    font-size: 15px;
-  } */
